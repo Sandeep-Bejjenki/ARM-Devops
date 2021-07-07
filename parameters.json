@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageaccountname": {
+            "value": "testsa21"
+        },
+        "tags": {
+            "value": {
+                "CreatedBy" : "Sandeep",
+                "Env" : "Dev",
+                "Project" : "Demo"
+            },
+        "pubIPname": {
+            "value": "pubIPdemo"
+        },
+        "vnetname": {
+            "value": "vnet1"
+        },
+        "subnet1": {
+            "value": "snet1"
+        }
+    }
+}
